@@ -1,0 +1,26 @@
+{
+  "name": "node-index",
+  "version": "0.0.1",
+  "description": "A super simple search index based on Term Frequency–Inverse Document Frequency using the awesome [natural](https://github.com/NaturalNode/natural) module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "natural": "~0.1.25"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1"
+  },
+  "keywords": [
+    "search",
+    "index",
+    "simple",
+    "memory"
+  ]
+}
