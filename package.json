@@ -1,7 +1,7 @@
 {
   "name": "node-index",
-  "version": "0.0.1",
-  "description": "A super simple search index based on Term Frequency–Inverse Document Frequency using the awesome [natural](https://github.com/NaturalNode/natural) module.",
+  "version": "0.0.2",
+  "description": "A super simple in memory search index based on Term Frequency–Inverse Document Frequency using the awesome natural module.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -22,5 +22,12 @@
     "index",
     "simple",
     "memory"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnorhs/node-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arnorhs/node-index/issues"
+  }
 }
